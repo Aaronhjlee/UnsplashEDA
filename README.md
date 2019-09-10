@@ -7,8 +7,8 @@
 ## Table of Contents
 
 * [Motivation](#Motivation)
-  *[Personal](#personal)
-  *[Question](#question)
+  * [Personal](#personal)
+  * [Question](#question)
 * []
 
 ## Motivation
@@ -26,4 +26,5 @@ In this case, we will be taking a look at color, specifically the average color 
 
 ### Pipeline (Source)
 
-<img src="images/pipeline.pdf" align="center" width = "500" />
+<img src="images/pipeline.pdf" align="center" />
+[Unsplash API](https://unsplash.com/developers) - contains photo metadata
