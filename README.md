@@ -6,9 +6,9 @@
 
 ## Table of Contents
 
-* [Motivation] (#Motivation)
-  *[Personal] (#personal)
-  *[Question] (#question)
+* [Motivation](#Motivation)
+  *[Personal](#personal)
+  *[Question](#question)
 * []
 
 ## Motivation
@@ -26,4 +26,4 @@ In this case, we will be taking a look at color, specifically the average color 
 
 ### Pipeline (Source)
 
-<img src="images/pipelin.pdf" align="center" width = "500" />
+<img src="images/pipeline.pdf" align="center" width = "500" />
