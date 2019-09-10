@@ -26,5 +26,5 @@ In this case, we will be taking a look at color, specifically the average color 
 
 ### Pipeline (Source)
 
-<img src="images/Pipeline.pdf" align="center" />
+![](images/Pipeline.pdf)
 [Unsplash API](https://unsplash.com/developers) - contains photo metadata
