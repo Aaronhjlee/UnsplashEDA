@@ -18,6 +18,10 @@
    * [Why](#why)
   * [Color Sorting](#color-sorting)
 * [Hypothesis Testing](#hypothesis-testing)
+  * [Set-Up](#set-up)
+  * [Mann Whitney U Test](#mann-whitney-u-test)
+* [Conclusion](#conclusion)
+* [Future Analysis](#future-analysis)
 * [Tools Used](#tools-used)
 * [Contact](#contact-information)
 
@@ -57,22 +61,50 @@ In order to see if color makes a difference in terms of engagement, we have to f
 2. Find the median value of the frequencies of which red, green, and blue occur. This will be the threshhold at which a photo's RGB value would be compared to. If the value is greater than the threshhold, we will assign a '1' and conversely a '0'. 
 3. Based on the 3 element [tuple](https://en.wikipedia.org/wiki/Tuple) that was returned, we are able to categorize photos by color.
 
+**Median red: 152 | Median green: 141 | Median blue: 133** \
 Below is a visual example of how this method is implimented. 
 
 ![](images/ColorSortingUpdated.jpg)
 
 ## Hypothesis Testing
 
+### Set-Up
+
 Before we can run any sort of tests, we have to take a look at how the data is distributed. Upon initial examination, we can see that density plot of the download percentage is skewed right with a long tail (below).
 
-![](plots/dldensityuntrimmed.png)
+![](plots/dldensityuntrim.png)
 
-Next we take the outliers (top and bottom 1%) and re-plot the density of the download percentage. 
+Next we take the outliers (top and bottom 1%) and re-plot the density of the download percentage. We do not believe these are representative of most of the pictures in our sample dataset due to their extremely high or low view count, resulting in a skewed download percentage. 
 
-![](/plots/dldensity.png)
+![](plots/dldensity.png)
 
 Once again, it proves to be skewed right. One final calculation, returning a p-value of 0.3301, allows us to definitively conslude that our distribution is **not** normal. 
-Since we will be comparing two independent samples from our sample population with similar distributions, we will be conducting a [MAnn-Whitney U Test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test). 
+
+### Mann Whitney U Test
+
+Since we will be comparing two independent samples from our sample population with similar distributions, we will be conducting a [Mann-Whitney U Test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test). 
+
+ * Null Hypothesis: User engagement of not-color pictures > User engagement of color pictures \
+ * Alternative Hypothesis: User engagement of not-color pictures ≤ User engagement of color pictures \
+ * Alpha: 0.01* \
+ 
+ *Normally we assume an alpha of 0.05, but since we're conducting 5 tests, we need to adjust by dividing by the number of tests (0.05 / 5) = 0.01
+
+![](images/ColorDensity.jpg)
+
+## Conclusion
+
+Looking at the weighted color average of an image, categorizing them, and comparing colors with the U test, there is a possibility that photos labeled **yellow** and **cyan** encourage more user engagement in the form of downloads at a higher rate than it's counterparts images. 
+
+## Future Analysis
+
+* Scale
+  * More photos
+  * Improving accuracy of color categorization with the use of ai
+  * Multiple stock photography sites
+* Variables to Consider
+  * Camera model ([color science](https://nofilmschool.com/Canon-Color-Science))
+  * Specifiying time of upload
 
 ## Tools Used
 
