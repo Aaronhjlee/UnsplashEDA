@@ -49,7 +49,7 @@ Dataset - 2,400+ photos
 #### Why
 
 Why is it important to track engagment?
-The information allows contributors to tailor their content in a way that promotes their photos or brands more efficiently. One of the goals of this exploration is to determine the ideal colors in a photo affect the number of user engagement with said photo. There are 3 metrics to measure engagement the photo metadata provides: likes, downloads, and views. Since these pictures are all free to use in (almost) any form or medium, this website may provide insight for photos without the [paywall](https://en.wikipedia.org/wiki/Paywall) and terms of use compared to traditional stock photography sites. 
+The information allows contributors to tailor their content in a way that promotes their photos or brands more efficiently. One of the goals of this exploration is to determine the ideal colors in a photo affect the number of user engagement with said photo. There are 3 metrics to measure engagement the photo [metadata](https://en.wikipedia.org/wiki/Metadata) provides: likes, downloads, and views. Since these pictures are all free to use in (almost) any form or medium, this website may provide insight for photos without the [paywall](https://en.wikipedia.org/wiki/Paywall) and terms of use compared to traditional stock photography sites. 
 
 How do we get a statistic on engagment?
 This portion is simple. We use the formula of (total downloads / total views) x 100 = download percentage (aka level of user engagement).
@@ -84,9 +84,9 @@ Once again, it proves to be skewed right. One final calculation, returning a p-v
 
 Since we will be comparing two independent samples from our sample population with similar distributions, we will be conducting a [Mann-Whitney U Test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test). 
 
- * Null Hypothesis: User engagement of not-color pictures > User engagement of color pictures \
- * Alternative Hypothesis: User engagement of not-color pictures ≤ User engagement of color pictures \
- * Alpha: 0.01* \
+ * Null Hypothesis: User engagement of not-color pictures > User engagement of color pictures 
+ * Alternative Hypothesis: User engagement of not-color pictures ≤ User engagement of color pictures 
+ * Alpha: 0.01* 
  
  *Normally we assume an alpha of 0.05, but since we're conducting 5 tests, we need to adjust by dividing by the number of tests (0.05 / 5) = 0.01
 
