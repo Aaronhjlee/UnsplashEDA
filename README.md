@@ -1,5 +1,7 @@
+![](images/UnsplashTitlePage.jpg)
+
 # Understanding Color in Stock Photography
-**Identifying which particular style of photography (mood) induces more user engagement**
+**Identifying which colors in an image produces more user engagement**
 <br>Aaron Lee
 <br>
 [Linkedin](http://www.linkedin.com/in/aaronhjlee) | [Github](https://github.com/aaronhjlee) | [Unsplash](https://unsplash.com/@aaronhjlee) \
