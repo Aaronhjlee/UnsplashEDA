@@ -1,4 +1,4 @@
-![](images/UnsplashTitlePage.jpg)
+![](images/UnsplashTP.jpg)
 
 # Understanding Color in Stock Photography
 **Identifying which colors in an image produces more user engagement**
