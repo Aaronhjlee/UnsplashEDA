@@ -107,6 +107,8 @@ Looking at the weighted color average of an image, categorizing them, and compar
 * Variables to Consider
   * Camera model ([color science](https://nofilmschool.com/Canon-Color-Science))
   * Specifiying time of upload
+  * Limiting photo composition
+  * Further grouping portraits, landscape, lifestyle, and product shots
 
 ## Tools Used
 
