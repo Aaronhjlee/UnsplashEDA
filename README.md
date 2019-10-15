@@ -127,3 +127,4 @@ Aaron Lee is a Data Scientist who is with a background in education and portrait
 * Linkedin: [in/aaronhjlee](https://www.linkedin.com/in/aaronhjlee/)
 * Github: [/aaronhjlee](https://github.com/Aaronhjlee)
 * Unsplash: [@aaronhjlee](https://unsplash.com/@aaronhjlee)
+* Email: [@aaronhjlee1@gmail.com](aaronhjlee1@gmail.com)
